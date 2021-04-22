@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /* --default-border: 3px solid lightseagreen; */
+  --default-border: 3px solid rgb(85, 85, 85);
+}
+

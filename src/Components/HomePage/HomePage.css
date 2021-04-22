@@ -1,0 +1,56 @@
+#homePage {
+    background: 
+        linear-gradient(
+            rgba(211, 255, 235, 0.9), 
+            rgba(210, 255, 253, 0.8)
+        ),
+        url("./images/happy-students.jpeg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a.buttonCard:hover {
+    color:black;
+    text-decoration-color: black;
+}
+
+a.buttonCard {
+    color:black;
+}
+
+#navCards {
+    width: clamp(20em,70vw,90vw);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navCard {
+    height: clamp(4em,500px,40vw);
+    border: var(--default-border);
+    border-radius: 10px;
+    margin:10px;
+    width:100%;
+    background: 
+        linear-gradient(
+            135deg,
+            rgba(241, 234, 255, 0.8), 
+            rgba(210, 255, 253, 0.8)
+        );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navCard:hover {
+    border-width: 5px;
+}
+
+h1, h3 {
+    padding: 10px;
+}
+
+img.logo {
+    width: 100px;
+}
