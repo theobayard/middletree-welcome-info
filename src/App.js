@@ -5,19 +5,21 @@ import BadURLPage from './Components/BadURLPage'
 
 import './App.css';
 import Content from './Content';
+import CONFIG from './Config';
 
 
 function App() {
   const content = Content
+  const baseURLPath = CONFIG.baseURLPath
   console.log(content)
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={HomePage} exact/>
+        <Route path={baseURLPath} component={HomePage} exact/>
 
         {content.map((page) => (
           <Route 
-            path={"/" + page.nav} 
+            path={baseURLPath + page.nav} 
             render={() => (
               <InfoPage {...page}/>
             )}/>

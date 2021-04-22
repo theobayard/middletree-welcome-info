@@ -8,7 +8,7 @@ const Content = [
                 "bodyText": "This is the body of the text here",
             },
             {
-                "title": "What to Expect",
+                "title": "What to Expect From Us",
                 "bodyText": "This is the body of the text here",
                 "list": [
                     "Items here will be put in a list",
@@ -42,7 +42,7 @@ const Content = [
                 "bodyText": "This is the body of the text here",
             },
             {
-                "title": "What to Expect",
+                "title": "What to Expect From Us",
                 "bodyText": "This is the body of the text here",
                 "list": [
                     "Items here will be put in a list",
@@ -76,7 +76,7 @@ const Content = [
                 "bodyText": "This is the body of the text here",
             },
             {
-                "title": "What to Expect",
+                "title": "What to Expect From Us",
                 "bodyText": "This is the body of the text here",
                 "list": [
                     "Items here will be put in a list",
@@ -110,7 +110,7 @@ const Content = [
                 "bodyText": "This is the body of the text here",
             },
             {
-                "title": "What to Expect",
+                "title": "What to Expect From Us",
                 "bodyText": "This is the body of the text here",
                 "list": [
                     "Items here will be put in a list",
@@ -144,7 +144,7 @@ const Content = [
                 "bodyText": "This is the body of the text here",
             },
             {
-                "title": "What to Expect",
+                "title": "What to Expect From Us",
                 "bodyText": "This is the body of the text here",
                 "list": [
                     "Items here will be put in a list",
