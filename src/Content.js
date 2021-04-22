@@ -12,7 +12,8 @@ const Content = [
                 "bodyText": "This is the body of the text here",
                 "list": [
                     "Items here will be put in a list",
-                    "Here is another item in the same list"
+                    "Here is another item in the same list",
+                    "Look! 3 whole things in one list."
                 ]
             },
             {
@@ -68,7 +69,7 @@ const Content = [
         ],
     },
     {
-        nav: "Parent",
+        nav: "parent",
         audience: "Parent",
         sections: [
             {
