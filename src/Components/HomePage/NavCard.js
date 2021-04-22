@@ -1,13 +1,12 @@
-import CONFIG from '../../Config'
+import {Link} from 'react-router-dom'
 
 function NavCard (props) {
-    const baseURLPath = CONFIG.baseURLPath
     return (
-        <a class="buttonCard" href={baseURLPath+props.nav}>
+        <Link class="buttonCard" to={"/"+props.nav}>
             <div class="navCard">
                 <h2>{props.audience}</h2>
             </div>
-        </a>
+        </Link>
     )
 }
 export default NavCard
