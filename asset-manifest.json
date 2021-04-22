@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/middletree-welcome-info/static/css/main.80af6736.chunk.css",
-    "main.js": "/middletree-welcome-info/static/js/main.38ff0d12.chunk.js",
-    "main.js.map": "/middletree-welcome-info/static/js/main.38ff0d12.chunk.js.map",
+    "main.js": "/middletree-welcome-info/static/js/main.b371ecdc.chunk.js",
+    "main.js.map": "/middletree-welcome-info/static/js/main.b371ecdc.chunk.js.map",
     "runtime-main.js": "/middletree-welcome-info/static/js/runtime-main.02fb35b7.js",
     "runtime-main.js.map": "/middletree-welcome-info/static/js/runtime-main.02fb35b7.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/middletree-welcome-info/static/css/2.4c97ca4f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.82b39a3b.chunk.js",
     "static/css/main.80af6736.chunk.css",
-    "static/js/main.38ff0d12.chunk.js"
+    "static/js/main.b371ecdc.chunk.js"
   ]
 }
