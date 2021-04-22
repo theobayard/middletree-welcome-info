@@ -1,21 +1,27 @@
-name: GitHub Pages Auto-Deploy
-
+name: Deployment
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
   workflow_dispatch:
-
 jobs:
-  build:
-
+  deploy:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        node-version: [15.x]
     steps:
-    - uses: actions/checkout@v2
-    - name: Deploy GitHub Page
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
-    - run: npm ci
-    - run: npm install
-    - run: npm run deploy
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install Packages
+      run: npm install
+    - name: Build page
+      run: npm run build
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
