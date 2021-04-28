@@ -1,17 +1,3 @@
 .page {
     text-align: center;
-    margin: clamp(5px,20px,2vw);
-    border-radius: 10px;
-    background: 
-        linear-gradient(
-            rgba(211, 255, 235, 0.9), 
-            rgba(210, 255, 253, 0.8)
-        ),
-        url("./images/happy-students.jpeg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 95vh;
-    overflow: scroll;
 }
