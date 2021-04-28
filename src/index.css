@@ -15,5 +15,11 @@ code {
 :root {
   /* --default-border: 3px solid lightseagreen; */
   --default-border: 3px solid rgb(85, 85, 85);
+  --background-color: aliceblue;
+  background-color: var(--background-color);
+}
+
+#root {
+  background-color: var(--background-color);
 }
 

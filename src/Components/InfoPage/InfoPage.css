@@ -1,14 +1,7 @@
-#infoPage {
-    background: linear-gradient(
-        30deg,
-        rgb(194, 194, 194),
-        rgb(183, 244, 255)
-    );
-}
 
 .infoSection {
     border: var(--default-border);
-    border-radius: 10px;
+    border-radius: 2px;
     max-width: 50rem;
     margin: 20px;
     margin-left: auto;
