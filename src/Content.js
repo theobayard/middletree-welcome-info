@@ -5,7 +5,7 @@ const Content = [
         sections: [
             {
                 "title": "Who We Are",
-                "bodyText": "This is the body of the text here",
+                "bodyText": <><b>This</b> is the body of the text here</>,
             },
             {
                 "title": "What to Expect From Us",
@@ -13,7 +13,8 @@ const Content = [
                 "list": [
                     "Items here will be put in a list",
                     "Here is another item in the same list",
-                    "Look! 3 whole things in one list."
+                    "Look! 3 whole things in one list.",
+                    <><b>We can even put custom html in here</b></>
                 ]
             },
             {
