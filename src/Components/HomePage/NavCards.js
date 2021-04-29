@@ -12,7 +12,7 @@ function NavCards() {
             <Container>
                 <Row className="justify-content-md-center">
                 {content.map((page) => (
-                    <Col sm md="2.5">
+                    <Col sm md={2.5} lg={2.5}>
                         <NavCard {...page} id={page.nav}/>
                     </Col>
                 ))}

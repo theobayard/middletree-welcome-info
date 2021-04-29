@@ -1,0 +1,21 @@
+.langSelector {
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.langButton {
+    border: var(--default-border);
+    background: 
+        linear-gradient(
+            135deg,
+            rgba(241, 234, 255, 0.8), 
+            rgba(210, 255, 253, 0.8)
+        );
+    padding: 15px;
+    border-radius: 2px;
+    margin:10px;
+    font-size: x-large;
+}

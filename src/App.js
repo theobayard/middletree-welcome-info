@@ -1,10 +1,10 @@
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import HomePage from './Components/HomePage/HomePage'
-import InfoPage from './Components/InfoPage/InfoPage'
 import BadURLPage from './Components/BadURLPage'
 
 import './App.css';
 import Content from './Content';
+import InfoPgLangControl from './Components/LanguageSelection/InfoPgLangControl';
 
 // Adding to test github action
 
@@ -20,7 +20,7 @@ function App() {
           <Route 
             path={"/" + page.nav} 
             render={() => (
-              <InfoPage {...page}/>
+              <InfoPgLangControl infoPage={page}/>
             )}/>
         ))}
         <Route component={BadURLPage}/>
