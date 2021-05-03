@@ -71,7 +71,7 @@ const Content = [
     },
     {
         nav: "parent",
-        audience: "Parent",
+        audience: "Parent/ Guardian",
         sections: [
             {
                 "title": "Who We Are",

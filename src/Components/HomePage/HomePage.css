@@ -29,11 +29,51 @@ a.buttonCard {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navCard:hover {
     border-width: 5px;
 }
+
+@media only screen and (min-width: 992px) {
+    .navCard#principal {
+        background-image: url('./images/primcipal.png');
+    }
+    .navCard#teacher {
+        background-image: url('./images/Teacher.png');
+    }
+    .navCard#student {
+        background-image: url('./images/Student.png');
+    }
+    .navCard#parent {
+        background-image: url('./images/Parents.png');
+    }
+    .navCard#volunteer {
+        background-image: url('./images/Volunteer.png');
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navCard#principal {
+        background-image: url('./images/principal-big.png');
+    }
+    .navCard#teacher {
+        background-image: url('./images/Teacher-big.png');
+    }
+    .navCard#student {
+        background-image: url('./images/Student-big.png');
+    }
+    .navCard#parent {
+        background-image: url('./images/Parents-big.png');
+    }
+    .navCard#volunteer {
+        background-image: url('./images/Volunteer-big.png');
+    }
+}
+
 
 img.logo {
     width: 100px;
