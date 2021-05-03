@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/middletree-welcome-info/static/css/main.658ba7fb.chunk.css",
+    "main.css": "/middletree-welcome-info/static/css/main.10242f82.chunk.css",
     "main.js": "/middletree-welcome-info/static/js/main.69a0b594.chunk.js",
     "main.js.map": "/middletree-welcome-info/static/js/main.69a0b594.chunk.js.map",
     "runtime-main.js": "/middletree-welcome-info/static/js/runtime-main.6ac78c7d.js",
@@ -12,7 +12,7 @@
     "static/js/3.231f3180.chunk.js.map": "/middletree-welcome-info/static/js/3.231f3180.chunk.js.map",
     "index.html": "/middletree-welcome-info/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/middletree-welcome-info/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.658ba7fb.chunk.css.map": "/middletree-welcome-info/static/css/main.658ba7fb.chunk.css.map",
+    "static/css/main.10242f82.chunk.css.map": "/middletree-welcome-info/static/css/main.10242f82.chunk.css.map",
     "static/js/2.502b8a18.chunk.js.LICENSE.txt": "/middletree-welcome-info/static/js/2.502b8a18.chunk.js.LICENSE.txt",
     "static/media/HomePage.css": "/middletree-welcome-info/static/media/principal-big.8438874b.png",
     "static/media/index.css": "/middletree-welcome-info/static/media/happy-students.162b2dba.jpeg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.6ac78c7d.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.502b8a18.chunk.js",
-    "static/css/main.658ba7fb.chunk.css",
+    "static/css/main.10242f82.chunk.css",
     "static/js/main.69a0b594.chunk.js"
   ]
 }
